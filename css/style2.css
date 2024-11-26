@@ -1014,6 +1014,18 @@ audio {
 	float:left;
 	width:100%;
 }
+/* Adjust for mobile view */
+@media (max-width: 768px) { /* Targets devices with a width of 768px or less */
+    .gc_main_slide1 {
+		min-height: 300px !important;
+    }
+	.gc_main_slide2 {
+		min-height: 300px !important;
+    }
+	.gc_main_slide3 {
+		min-height: 300px !important;
+    }
+}
 .gc_main_slide1{
 	/*background:url('../images/header/slider_img2.jpg') 50% 0 repeat-y;*/
 	width:100%;
